@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color:rgb(255, 255, 255) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    padding: 20px;
+    background-color: lightskyblue;
+}
+header p {
+    font-size: 35;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+header hr{
+    align-self: left;
+    width: 600px ;
+    left: 0;
+}
+#index{
+    text-align: left;
+    padding: 3px; 
+    font-size: 16px;
+    background-color: #add8e6;
+    color:rgb(0, 0, 0)
+}
+img{
+    height: 250px;
+    width: 260px;
+    border: 5px solid black;
+
+    
+}
+#graduação{
+    background-color: lightskyblue;
+    letter-spacing: normal;
+    font-size: 13;
+    font-family:  times, Helvetica, sans-serif;
+    text-align: center;
+}
+#contato{
+    background-color: grey;
+    text-align: center;
+    
+}
+#navegação{
+    position: absolute;
+    margin-left: 590px;
+}
+
+.form{
+    background-color: grey;
+    align-items: center;
+    height: 200px;
+}
+
+a{
+    color: #87CEEB;
+    text-align: top;
+}
+
+p{
+    font-size: 35;
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
+
+.botao1 {
+    box-shadow: 3px 4px 0px 0px #4169E1;
+    background:linear-gradient(to bottom, #1E90FF 5%, #4169E1 100%);
+    background-color:#87CEEB;
+    border-radius:18px;
+    border:1px solid #87CEEB;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:8px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #483D8B;
+}
+
+.botao1:hover {
+    background:linear-gradient(to bottom, #1E90FF 5%, #87CEEB 100%);
+    background-color:#87CEEB;
+}
+
+.botao1:active {
+    position:relative;
+    top:1px;
+}
+
+.insta{
+    font-size: 50;
+    width: 50px;
+    height: 40px;
+    border: none
+}
